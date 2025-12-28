@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8fbff;
+  color: #222;
+}
+
+/* ================= HEADER ================= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header-btn {
+  background: #1bb7a3;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ================= HERO ================= */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(to right, #e8f7f6, #f4fbfa);
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons button {
+  margin-right: 10px;
+}
+
+.primary {
+  background: #1bb7a3;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 25px;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #1bb7a3;
+  color: #1bb7a3;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.hero-image img {
+  width: 380px;
+}
+
+/* ================= FEATURES ================= */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: white;
+}
+
+.feature-box {
+  width: 250px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #f3fbfa;
+  text-align: center;
+}
+
+/* ================= ABOUT ================= */
+.about {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+.about-text {
+  margin-left: 40px;
+}
+
+.about-text h2 {
+  margin-bottom: 20px;
+}
+
+.about-items div {
+  margin-top: 10px;
+}
+
+/* ================= SERVICES ================= */
+.services {
+  background: linear-gradient(to right, #e8f7f6, #f4fbfa);
+  padding: 60px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.service-tabs button {
+  border: none;
+  padding: 12px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.service-tabs .active {
+  background: #1bb7a3;
+  color: white;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+}
+
+.service-text {
+  width: 50%;
+}
+
+.service-text ul {
+  margin: 20px 0;
+}
+
+.service-text li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.service-image img {
+  width: 350px;
+  border-radius: 15px;
+}
